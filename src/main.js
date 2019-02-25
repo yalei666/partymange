@@ -12,7 +12,7 @@ import mui from './../static/vendor/mui/dist/js/mui.min.js'
 import './../static/css/global.css'
 import NavBar from './components/common/navBar.vue'
 import Store from './store/index.js'
-
+1
 mui('body').on('tap','a',function(){document.location.href=this.href;});
 Vue.use(Mint)
 Vue.use(Vuex)
